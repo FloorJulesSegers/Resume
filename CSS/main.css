@@ -1,0 +1,102 @@
+/*Shared body/html css*/
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+  color: #122101;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../IMG/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+
+/*Header*/
+
+.slogan {
+  font-size: 35px;
+}
+
+.logo {
+  width: 13%;
+  height: 13%;
+}
+
+nav {
+  z-index: 1;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #eeefec;
+  position: fixed;
+  width: 100vw;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 20px;
+  top: 0;
+  align-items: flex-end;
+  color: #122101;
+  font-weight: 500;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0 150px 0 150px;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  margin-bottom: 11px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 0;
+}
+
+.navbar-nav {
+  margin-bottom: 11px;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #122101;
+}
+
+.navbar .row div {
+  line-height: 48px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+
+.parallax {
+  height: 600px;
+  padding-top: 200px;
+  color: #eeefec;
+  background: transparent;
+}
+
+.slogan-logo {
+  text-align: right;
+  font-family: "Ubuntu", sans-serif;
+  background: transparent;
+}
+
+
+
